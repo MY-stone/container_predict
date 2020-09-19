@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de661be7-63df-435b-87f3-863f320e26d3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fzgzC8TuGmPHL4w5zW1DZO9I8D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="LeNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="text-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LeNetdemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="text-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeNetdemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="text-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.LeNetdemo" />
+        <item itemvalue="Python.LeNet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de661be7-63df-435b-87f3-863f320e26d3" name="Default Changelist" comment="" />
+      <created>1597226594580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597226594580</updated>
+      <workItem from="1597226601568" duration="709000" />
+      <workItem from="1597279542212" duration="906000" />
+      <workItem from="1597280528410" duration="168000" />
+      <workItem from="1597281404678" duration="2117000" />
+      <workItem from="1597303629958" duration="3527000" />
+      <workItem from="1597307502044" duration="59000" />
+      <workItem from="1597373060858" duration="1144000" />
+      <workItem from="1597553421195" duration="878000" />
+      <workItem from="1597583977991" duration="794000" />
+      <workItem from="1597584866264" duration="1239000" />
+      <workItem from="1597586733395" duration="10000" />
+      <workItem from="1597656551512" duration="1075000" />
+      <workItem from="1597659785740" duration="85000" />
+      <workItem from="1597659884150" duration="12000" />
+      <workItem from="1597808129049" duration="895000" />
+      <workItem from="1597819461341" duration="12000" />
+      <workItem from="1598235975942" duration="1797000" />
+      <workItem from="1598851061176" duration="18000" />
+      <workItem from="1598851274399" duration="1027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2606" y="234" key="FileChooserDialogImpl" timestamp="1597819471789">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2606" y="234" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597819471789" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1597376561577" />
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1598852301772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236432831" />
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598852301772" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center" timestamp="1598852301772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236432831" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598852301772" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left" timestamp="1598852301772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236432831" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598852301772" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right" timestamp="1598852301772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236432831" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598852301772" />
+    <state width="1493" height="313" key="GridCell.Tab.1.bottom" timestamp="1598252133386">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236435741" />
+    <state width="1478" height="268" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1597304936129" />
+    <state width="1493" height="313" key="GridCell.Tab.1.center" timestamp="1598252133386">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236435741" />
+    <state width="1478" height="268" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1597304936129" />
+    <state width="1493" height="313" key="GridCell.Tab.1.left" timestamp="1598252133386">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236435741" />
+    <state width="1478" height="268" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1597304936128" />
+    <state width="1493" height="313" key="GridCell.Tab.1.right" timestamp="1598252133386">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="313" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598252133386" />
+    <state width="1892" height="361" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598236435741" />
+    <state width="1478" height="268" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1597304936129" />
+    <state x="270" y="74" key="SettingsEditor" timestamp="1597280068338">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597280068338" />
+    <state x="2481" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1597819465466">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2481" y="320" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597819465466" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1597281404841" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1597304794883">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1597304794883" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/text_recognition$LeNetdemo.coverage" NAME="LeNetdemo Coverage Results" MODIFIED="1598236432726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/text_recognition$LeNet.coverage" NAME="LeNet Coverage Results" MODIFIED="1597227289301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/text_recognition$demo.coverage" NAME="demo Coverage Results" MODIFIED="1598852266023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
