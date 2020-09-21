@@ -13,7 +13,7 @@ from PySide2.QtCore import QDir, QTimer,QFileInfo,Qt,QRect,QSize
 from PySide2.QtGui import QIcon,QPixmap,QImage,QImageReader,QPainter,QPen,QGuiApplication,QPalette
 from text_recognition import predict
 import cv2
-
+from vedio_show import VedioUI
 
 
 #重写GraphicsView类
@@ -68,7 +68,7 @@ class myGraphicsView(QGraphicsView):
     def cut_window(self,x0,y0,wide,high):
         pqscreen  = QGuiApplication.primaryScreen()
         pixmap2 = pqscreen.grabWindow(self.winId(), x0, y0, wide, high)
-        pixmap2.save('555.png')
+        pixmap2.save('pridict.png')
 
    
 class ContainerUI():
@@ -93,22 +93,30 @@ class ContainerUI():
     #图片加载
     def video_lode(self):
         #图片选择
-        file_dir = QFileDialog.getOpenFileName(self.ui.picture_lode, "打开图片",\
-             QDir.currentPath(),"图片文件(*.jpg *jpeg *.png *.bmp);;所有文件(*)")[0]
+        file_dir = QFileDialog.getOpenFileName(self.ui, "打开视频",\
+             QDir.currentPath(),"图片文件(*.mp4 *avi *.wmv *.flv);;所有文件(*)")[0]
 
         print(file_dir)
         # 判断是否正确打开文件
-        if not file_dir:
-            QMessageBox.critical(self.ui.picture_lode, "错误", "文件错误或打开文件失败！")
+        if file_dir:
+        # 新建窗口播放视频
+            self.ui.childWindow = VedioUI()
+            self.ui.childWindow.vedio_show(file_dir)
+            self.ui.childWindow.show()
+
+        else:
+            QMessageBox.critical(self.ui, "错误", "文件错误或打开文件失败！")
             return
         # 在QGraphicsView上显示图像
-        self.GraphicsViewShow(file_dir)
+        #下面要播放视频
+
+
     
 
     #区域选定
     def selected(self):
         print("集装箱区域选定被点击了")
-        QMessageBox.information(self.ui.picture_lode,"提示",'请框取集装箱编号区域') 
+        QMessageBox.information(self.ui,"提示",'请框取集装箱编号区域') 
         #鼠标修改       
         self.ui.picture_view.setCursor(Qt.CrossCursor)  
         self.ui.picture_view.select_on()
@@ -116,11 +124,11 @@ class ContainerUI():
     def predict(self):        
         if (self.ui.tree.currentItem()):  
             picture_dir = self.ui.tree.currentItem().text(1)
-            res_txt = predict.txt_predicte('555.png')
+            res_txt = predict.txt_predicte('pridict.png')
             self.ui.predict_txt.clear()
             self.ui.predict_txt.append(res_txt)
             if not predict.container_check(res_txt):
-                QMessageBox.information(self.ui.picture_lode,"提示",\
+                QMessageBox.information(self.ui,"提示",\
                 '识别可能出现误判，请手动修改')
 
     #清除
@@ -152,7 +160,7 @@ class ContainerUI():
         print(file_dir)
         # 判断是否正确打开文件
         if not file_dir:
-            QMessageBox.critical(self.ui.picture_lode, "错误", "文件错误或打开文件失败！")
+            QMessageBox.critical(self.ui, "错误", "文件错误或打开文件失败！")
             return
         # 在QGraphicsView上显示图像
         self.GraphicsViewShow(file_dir)
@@ -162,9 +170,9 @@ class ContainerUI():
         image = cv2.imread(file_dir)
         
         if image is None:
-            QMessageBox.critical(self.ui.picture_lode,'文件打开失败',\
+            QMessageBox.critical(self.ui,'文件打开失败',\
                 '1.文件扩展名与文件类型不匹配!\n2.路径中请勿含有中文字符！\n3.文件损坏!\n4.文件无法读取!')
-            QMessageBox.information(self.ui.picture_lode,"解决方法",\
+            QMessageBox.information(self.ui,"解决方法",\
                 '1.尝试将导入图片路径修改为英文\n2.使用画图工具将图片格式修改\n3.尝试联系管理员')
             return
 
@@ -180,11 +188,11 @@ class ContainerUI():
             item = QGraphicsPixmapItem(pixmap)
             self.ui.picture_view.scene.addItem(item)
             self.ui.picture_view.setScene(self.ui.picture_view.scene)
-            QMessageBox.information(self.ui.picture_lode,'操作成功','请继续下一步操作')
+            QMessageBox.information(self.ui,'操作成功','请继续下一步操作')
         else:
-            QMessageBox.critical(self.ui.picture_lode,'文件打开失败',\
+            QMessageBox.critical(self.ui,'文件打开失败',\
                 '1.文件扩展名与文件类型不匹配!\n2.路径中请勿含有中文字符！\n3.文件损坏!\n4.文件无法读取!')
-            QMessageBox.information(self.ui.picture_lode,"解决方法",\
+            QMessageBox.information(self.ui,"解决方法",\
                 '1.尝试将导入图片路径修改为英文\n2.使用画图工具将图片格式修改\n3.尝试联系管理员')    
 
 
